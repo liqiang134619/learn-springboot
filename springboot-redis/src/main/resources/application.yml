@@ -1,0 +1,17 @@
+server:
+  port: 9091
+
+
+
+spring:
+  redis:
+    database: 15
+    host: 61.155.157.42
+    port: 6382
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    password: tE2-WJZ-u5F-6UJ
